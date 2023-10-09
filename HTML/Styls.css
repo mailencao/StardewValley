@@ -4,8 +4,9 @@ body {
 }
 
  @font-face {
-    font-family: 'Pixelify Sans', cursive;
-
+     src:none;
+     font-family: 'Pixelify Sans', cursive;
+     font-family: 'Roboto Mono', monospace;
 }
 
 .SVcontainer {
@@ -20,7 +21,16 @@ body {
 h1{
     font-family: 'Pixelify Sans', cursive;
     font-size: -webkit-xxx-large;
-    margin-block-start: 2px;
-    margin-block-end: 4px;
-    margin-inline-start: 40px;
+    margin: 35px 0px 4px 45px;
+    border-bottom: solid sandybrown 2px;
+    }
+
+section,p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+    font-style: oblique;
+    font-weight:bolder;
+    padding: 5px 350px 0px 45px;
+
 }
+
