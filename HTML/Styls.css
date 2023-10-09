@@ -1,0 +1,26 @@
+body {
+
+    background: linear-gradient(0deg, rgba(165,228,255,1) 0%, rgba(91,200,242,1) 29%, rgba(54,129,207,1) 58%, rgba(15,42,138,1) 100%);
+}
+
+ @font-face {
+    font-family: 'Pixelify Sans', cursive;
+
+}
+
+.SVcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.SVcontainer img {
+    width: 1000px;
+}
+
+h1{
+    font-family: 'Pixelify Sans', cursive;
+    font-size: -webkit-xxx-large;
+    margin-block-start: 2px;
+    margin-block-end: 4px;
+    margin-inline-start: 40px;
+}
